@@ -1,0 +1,54 @@
+
+body, html{
+	height: 100%;
+	width: auto;
+	margin: 0;
+	background-image: url(world.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-width: 100px;
+	}
+
+
+	
+button {
+    border-radius: 30%;
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    display: inline-flex;
+ 
+    margin-left: 65em;
+    margin-top: 18em;
+   
+    width: 100px;
+    height: 40px;
+    transition: 1s;
+    
+      }
+
+header {
+	background-color: blue;
+	padding: 1px;
+	text-align: center;
+	font-size: 100%;
+	color: white;
+
+}
+
+.button:hover {
+  transform: scale(1.1);
+
+}
+
+.button1 {
+
+	background-color: green;
+}
+
+.button2 {
+		margin-left: 1em;
+		color:red;
+
+}
