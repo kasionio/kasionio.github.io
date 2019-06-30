@@ -1,19 +1,169 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
 <head>
-<title>Parents</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+  <title>CSS Layouts HW</title>
 </head>
-<header><h1>Названия каналов</h1></header>
-<body>	
-	<a href="http://youtube.com" target="_blank"><button class ="button button1">Ютуб</button></a>
-	<a href="https://www.youtube.com/channel/UCmywkGuxMV3bnadvG07Tiew?" target="_blank"><button class ="button button2">Наши видео</button></a>
-	<a href="http://korrespondent.net" target="_blank"><button class ="button button1">Новости</button></a><br>
-	<img src="http://comments.ua/img/20170201180225.jpg" width="100px" height="50px">
-	<h1>Футбол</h1>
-	<a href="http://football.ua" target="_blank"><button class ="button button1">Футбол.юа</button></a>
-		<a href="http://xsport.ua/online/" target="_blank"><button class ="button button3">Трансляция мини-футбол</button></a>
-	<a href="http://dynamo.kiev.ua" target="_blank"><button class ="button button1">Динамо</button></a>
-	
-</body>
+
+<body>
+    <div class="container">
+      <div class="bg-wrap">
+        <div class="header-wrap">
+          <header>
+          <span class="logo">Lorem & ipsum</span>
+            <div class="header-auth">
+              <a href="#">Login</a>
+              <a href="#">Signup</a>
+            </div>
+          </header>               
+          <div class="header header-main">
+            <h1>Lorem <span>&amp;</span> Ipsum</h1>
+            <p class="header-desc">An Original Brand Since 1965</p>
+          </div>
+          <nav class="main-nav">
+            <a href="#">Careers</a>
+            <a href="#">About</a>
+            <a href="#">Show More</a>
+          </nav>
+        </div>
+      </div>
+    
+      <div class="shape-triangle">
+        <div class="content-block top-text-block">
+          <p class="right-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco. </p>
+          <p class="left-block">Lorem ipsum dolor, consectetur adipisicing. Aenean <strong>commodo ligula</strong> eget dolor.</p> 
+        </div>
+      </div>
+   
+      <main>
+        <article class="article-wrap">
+          <header>
+            <h3 class="header article-header">Read some of our <strong>featured articles</strong></h3>
+          </header>
+            <div class="section">
+              <figure>
+                <a href="#" class="like-counter">154&#x2665;</a>
+                <img src="img/sample-1.jpg" class="sample-img" alt="office_hours" />
+                <figcaption class="figcaption">
+                  <time datetime="07-18">July 18</time> Spain
+                </figcaption>
+              </figure>
+              <div class="desc desc-right">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi.</p>
+              </div>
+            </div>
+            <div class="section section-reverse">
+              <figure>
+                  <a href="#" class="like-counter">172 &#x2665;</a>
+                  <img src="img/sample-2.jpg" class="sample-img" alt="office_building" />
+                <figcaption class="figcaption">
+                  <time datetime="01-15">January 15</time> South France
+                </figcaption>
+              </figure>
+            <div class="desc desc-left">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi.</p>
+            </div>
+          </div>
+        </article>
+        <div class="news-block">
+          <div class="news-block-container content-block"> 
+            <div class="news-block-item">
+              <figure>
+                <a href="#" class="like-counter">10 &#x2665;</a>
+                <img src="img/news-list-1.jpg" alt="sea_village" />
+                  <figcaption class="figcaption">
+                    <time datetime="01-18">January 18</time> Greece
+                  </figcaption>
+              </figure>
+              <button class="explore-button">Explore</button>
+            </div>
+
+            <div class="news-block-item">
+              <figure>
+                <a href="#" class="like-counter">35 &#x2665;</a>
+                <img src="img/news-list-2.jpg" alt="boats_near_sea_village" />
+                  <figcaption class="figcaption">
+                    <time datetime="06-18">June 18</time> Italy
+                  </figcaption>
+              </figure>
+              <button class="explore-button">Explore</button>
+            </div>
+
+            <div class="news-block-item">
+              <figure>
+              <a href="#" class="like-counter">199 &#x2665;</a>
+              <img src="img/news-list-3.jpg" alt="office_room" />
+                <figcaption class="figcaption">
+                  <time datetime="12-11">December 11</time> USA
+                </figcaption>
+              </figure>
+              <button class="explore-button">Explore</button>
+            </div>
+          
+            <div class="news-block-item">
+              <figure>
+                <a href="#" class="like-counter">88 &#x2665;</a>
+                <img src="img/news-list-4.jpg" alt="river_bank" />
+                  <figcaption class="figcaption">
+                    <time datetime="05-25">May 25</time> Germany
+                  </figcaption>
+              </figure>
+              <button class="explore-button">Explore</button>
+            </div>
+          </div>
+          <button class="btn-load">Load news</button>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-top">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <form class="form">
+            <label>Subscribe to our <strong>newsletter</strong></label>
+            <input type="email" name="e-mail" placeholder="Enter your e-mail" />
+            <button class="subscribe-btn">Subscribe</button>
+          </form>
+        </div>
+
+        <div class="footer-bottom">
+          <span>&#169; 2019 Epam</span>
+            <nav class="footer-nav">
+              <a href="">Home</a>
+              <a href="">About</a>
+              <a href="">Shop</a>
+              <a href="">Vacancies</a>
+            </nav>  
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
